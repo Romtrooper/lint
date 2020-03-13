@@ -1,0 +1,17 @@
+{
+	"name": "docs",
+	"author": "Rsama",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com:Romtrooper/docs.git"
+	},
+	"license": "MIT",
+	"main": "./index.js",
+	"scripts": {},
+	"dependencies": {
+		"eslint": "^6.8.0",
+		"eslint-plugin-import": "^2.20.1",
+		"eslint-plugin-react": "^7.19.0"
+	}
+}
