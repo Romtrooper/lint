@@ -1,1 +1,1 @@
-# docs
+# Linter's rules 
