@@ -14,7 +14,6 @@
   },
     "rules": {
         "jsx-a11y/no-static-element-interactions": 0,
-        "jsx-quotes": [1, "prefer-single"],
         "no-empty": 2,
         "array-callback-return": 2,
         "no-empty-pattern": 1,
@@ -28,16 +27,42 @@
         "prefer-promise-reject-errors": 1,
         "require-await": 2,
         "no-use-before-define": 2,
-        "no-undef-init": 1
+        "no-undef-init": 1,
+        "array-bracket-newline": ["error", "consistent"],
+        "array-bracket-spacing": [1, "never"],
+        "array-element-newline": ["warn", "consistent"],
+        "block-spacing": 1,
+        "brace-style": "error",
+        "camelcase": ["error", {"properties": "never", "ignoreDestructuring": true}],
+        "comma-spacing": ["error", { "before": false, "after": true }],
+        "comma-style": ["error", "last"],
+        "computed-property-spacing": ["error", "never"],
+        "func-call-spacing": ["error", "never"],
+        "function-call-argument-newline": ["error", "consistent"],
+        "function-paren-newline": ["error", "consistent"],
+        "id-length": ["error", { "min": 2 }],
+        "indent": ["error", "tab"],
+        "jsx-quotes": [1, "prefer-single"],
+        "key-spacing": ["error", { "afterColon": true }]
     }
 }
 
-//needs to continue from => https://eslint.org/docs/rules/#stylistic-issues
+//needs to continue from => https://eslint.org/docs/rules/#stylistic-issues => "key-spacing"
 
 //see => https://eslint.org/docs/rules/
 //see => https://github.com/yannickcr/eslint-plugin-react
 //0 => off, 1 => warn, 2 => error
 
+
+
+// => think about:
+// https://eslint.org/docs/rules/capitalized-comments
+// https://eslint.org/docs/rules/comma-dangle
+// https://eslint.org/docs/rules/consistent-this
+// https://eslint.org/docs/rules/eol-last
+// https://eslint.org/docs/rules/func-names
+// https://eslint.org/docs/rules/id-blacklist
+// https://eslint.org/docs/rules/implicit-arrow-linebreak
 
 //why not rules
 //=> https://eslint.org/docs/rules/no-constructor-return
