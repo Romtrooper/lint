@@ -43,11 +43,31 @@
         "id-length": ["error", { "min": 2 }],
         "indent": ["error", "tab"],
         "jsx-quotes": [1, "prefer-single"],
-        "key-spacing": ["error", { "afterColon": true }]
+        "key-spacing": ["error", { "afterColon": true }],
+        "keyword-spacing": ["error", { "before": true }],
+        "max-depth": ["error", 4],
+        "max-len": ["error", { "code": 90, "ignoreComments": true, "ignoreStrings": true }],
+        "max-nested-callbacks": ["error", 3],
+        "new-cap": ["warn", { "newIsCap": true }],
+        "new-parens": "warn",
+        "no-mixed-operators": "error",
+        "no-multi-assign": "error",
+        "no-multiple-empty-lines": ["warn", { "max": 3, "maxEOF": 1 }],
+        "no-new-object": "warn",
+        "no-trailing-spaces": "error",
+        "no-underscore-dangle": "warn",
+        "no-unneeded-ternary": "error",
+        "no-whitespace-before-property": "error",
+        "quote-props": ["error", "as-needed"],
+        "semi-style": ["error", "last"],
+        "space-before-blocks": "error",
+        "space-before-function-paren": ["error", "never"],
+        "space-infix-ops": "error",
+        "wrap-regex": "error"
     }
 }
 
-//needs to continue from => https://eslint.org/docs/rules/#stylistic-issues => "key-spacing"
+//needs to continue from => https://eslint.org/docs/rules/#ecmascript-6
 
 //see => https://eslint.org/docs/rules/
 //see => https://github.com/yannickcr/eslint-plugin-react
@@ -55,7 +75,8 @@
 
 
 
-// => think about:
+//why not rules
+//=> https://eslint.org/docs/rules/no-constructor-return
 // https://eslint.org/docs/rules/capitalized-comments
 // https://eslint.org/docs/rules/comma-dangle
 // https://eslint.org/docs/rules/consistent-this
@@ -63,9 +84,19 @@
 // https://eslint.org/docs/rules/func-names
 // https://eslint.org/docs/rules/id-blacklist
 // https://eslint.org/docs/rules/implicit-arrow-linebreak
-
-//why not rules
-//=> https://eslint.org/docs/rules/no-constructor-return
+// https://eslint.org/docs/rules/linebreak-style
+// https://eslint.org/docs/rules/newline-per-chained-call
+// https://eslint.org/docs/rules/no-array-constructor
+// https://eslint.org/docs/rules/no-negated-condition
+// https://eslint.org/docs/rules/object-curly-spacing
+// https://eslint.org/docs/rules/object-property-newline
+// https://eslint.org/docs/rules/one-var
+// https://eslint.org/docs/rules/padding-line-between-statements
+// https://eslint.org/docs/rules/prefer-object-spread
+// https://eslint.org/docs/rules/quotes
+// https://eslint.org/docs/rules/space-unary-ops
+// https://eslint.org/docs/rules/switch-colon-spacing
+// https://eslint.org/docs/rules/space-in-parens
 
 // 'parserOptions': {
 // 		'ecmaFeatures': {
