@@ -63,17 +63,24 @@
         "space-before-blocks": "error",
         "space-before-function-paren": ["error", "never"],
         "space-infix-ops": "error",
-        "wrap-regex": "error"
+        "wrap-regex": "error",
+        "arrow-body-style": ["warn", "as-needed"],
+        "arrow-parens": ["warn", "as-needed"],
+        "arrow-spacing": "warn",
+        "no-duplicate-imports": "error",
+        "no-useless-computed-key": "error",
+        "no-var": "error",
+        "prefer-const": "error",
+        "prefer-template": "warn"
     }
 }
 
-//needs to continue from => https://eslint.org/docs/rules/#ecmascript-6
 
-//see => https://eslint.org/docs/rules/
 //see => https://github.com/yannickcr/eslint-plugin-react
+
+
+// https://eslint.org/docs/rules/
 //0 => off, 1 => warn, 2 => error
-
-
 
 //why not rules
 //=> https://eslint.org/docs/rules/no-constructor-return
@@ -97,6 +104,9 @@
 // https://eslint.org/docs/rules/space-unary-ops
 // https://eslint.org/docs/rules/switch-colon-spacing
 // https://eslint.org/docs/rules/space-in-parens
+// https://eslint.org/docs/rules/no-class-assign
+// https://eslint.org/docs/rules/object-shorthand
+
 
 // 'parserOptions': {
 // 		'ecmaFeatures': {
