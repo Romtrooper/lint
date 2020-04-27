@@ -69,7 +69,6 @@
 		"no-constructor-return": "error",
 		"implicit-arrow-linebreak": ["error", "beside"],
 		"no-negated-condition": "warn",
-
 		"quote-props": ["error", "as-needed"],
 		"semi-style": ["error", "last"],
 		"space-before-blocks": "error",
@@ -189,9 +188,3 @@
 // 			'globalReturn': true
 //     },
 // },
-
-
-// for TS => https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/ROADMAP.md
-// https://github.com/typescript-eslint/typescript-eslint
-// https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/README.md
-// https://eslint.org/blog/2019/01/future-typescript-eslint
