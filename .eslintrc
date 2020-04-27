@@ -99,6 +99,8 @@
 		"react/no-unused-state": 1,
 		"react/prefer-es6-class": [2, "always"],
 		"react/prefer-stateless-function": [1, { "ignorePureComponents": true }],
+		"react/boolean-prop-naming": ["error"],
+
 		"react/prop-types": 2,
 		"react/react-in-jsx-scope": 2,
 		"react/require-default-props": 1,
@@ -106,6 +108,8 @@
 		"react/self-closing-comp": 2,
 		"react/button-has-type": [2],
 		"react/sort-comp": [2],
+		"react/no-will-update-set-state": [2],
+		"react/prefer-read-only-props": 2,
 		"react/jsx-closing-bracket-location": 1,
 		"react/jsx-closing-tag-location": 1,
 		"react/jsx-equals-spacing": [2, "never"],
@@ -162,13 +166,7 @@
 // https://eslint.org/docs/rules/space-unary-ops
 // https://eslint.org/docs/rules/switch-colon-spacing
 // https://eslint.org/docs/rules/object-shorthand
-// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/boolean-prop-naming.md
-// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
-// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md
 // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
-// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-read-only-props.md
-// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-will-update-set-state.md
-// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/static-property-placement.md
 
 // 'parserOptions': {
 // 		'ecmaFeatures': {
