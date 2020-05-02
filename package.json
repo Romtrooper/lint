@@ -1,14 +1,18 @@
 {
-	"name": "docs",
+	"name": "lint",
 	"author": "Rsama",
 	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com:Romtrooper/docs.git"
+		"url": "https://github.com/Romtrooper/lint"
 	},
+	"publishConfig": { "registry": "https://npm.pkg.github.com/" },
 	"license": "MIT",
 	"main": "./index.js",
-	"scripts": {},
+	"scripts": {
+		"switch:https": "git remote set-url origin https://github.com/Romtrooper/lint",
+		"switch:ssh": "git remote set-url origin git@github.com:Romtrooper/lint.git"
+	},
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^2.29.0",
 		"@typescript-eslint/parser": "^2.29.0",
