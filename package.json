@@ -1,12 +1,13 @@
 {
-	"name": "lint",
+	"name": "@romtrooper/lint",
 	"author": "Rsama",
 	"version": "0.0.1",
 	"repository": {
-		"type": "git",
 		"url": "git://github.com/Romtrooper/lint.git"
 	},
-	"publishConfig": { "registry": "https://npm.pkg.github.com/" },
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
 	"license": "MIT",
 	"main": "./index.js",
 	"scripts": {

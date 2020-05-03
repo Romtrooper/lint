@@ -1,16 +1,18 @@
+/* global module*/
+
 module.exports = {
-    parser: "@typescript-eslint/parser",
-    plugins: ["@typescript-eslint"],
-    extends: [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking"
-      ],
-      rules: {
-      "@typescript-eslint/rule-name": "error"
-    }
-  };
+	parser: '@typescript-eslint/parser',
+	plugins: ['@typescript-eslint'],
+	extends: [
+		'eslint:recommended',
+		'plugin:@typescript-eslint/eslint-recommended',
+		'plugin:@typescript-eslint/recommended',
+		'plugin:@typescript-eslint/recommended-requiring-type-checking'
+	],
+	rules: {
+		'@typescript-eslint/rule-name': 'error'
+	}
+};
 
 //Note: Make sure to use eslint --ext .js,.ts since by default eslint will only search for .js files.
 // https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md
