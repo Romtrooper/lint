@@ -3,8 +3,8 @@
 module.exports = {
 	extends: [
 		'eslint:recommended',
-		'./plugin-react.js',
-		'./plugin-import.js'
+		'../plugins/react.js',
+		'../plugins/import.js',
 	],
 	root: true,
 	parserOptions: {
@@ -20,7 +20,8 @@ module.exports = {
 		es2017: true
 	},
 	plugins: [
-		'react'
+		'react',
+		// 'import',
 	],
 	rules: {
 		'no-empty': 2,

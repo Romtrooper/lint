@@ -12,11 +12,13 @@
 	"main": "./index.js",
 	"scripts": {
 		"switch:https": "git remote set-url origin https://github.com/Romtrooper/lint",
-		"switch:ssh": "git remote set-url origin git@github.com:Romtrooper/lint.git"
+		"switch:ssh": "git remote set-url origin git@github.com:Romtrooper/lint.git",
+		"publish": "npm publish"
 	},
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^2.29.0",
 		"@typescript-eslint/parser": "^2.29.0",
+		"babel-eslint": "^10.1.0",
 		"eslint": "^6.8.0",
 		"eslint-plugin-import": "^2.20.1",
 		"eslint-plugin-react": "^7.19.0"

@@ -1,8 +1,7 @@
 /* global module*/
+
 module.exports = {
-	extends: [
-		'import'
-	],
+	plugins: ['import'],
 	rules: {
 		'import/export': 1,
 		'import/first': 2,
