@@ -11,6 +11,12 @@ This repo is under construction and may be used with caution
 
 ## Installation and usage
 
+Add a `.npmrc` file in your root folder
+
+```
+registry=https://npm.pkg.github.com/Romtrooper
+```
+
 ```
 npm install @romtrooper/lint eslint babel-eslint -D
 ```
