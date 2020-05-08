@@ -12,3 +12,4 @@ This repo is under construction and can not be used for now neither in dev or pr
 
 
 https://dev.to/jgierer12/how-to-publish-packages-to-the-github-package-repository-4bai
+https://github.com/benmosher/eslint-plugin-import

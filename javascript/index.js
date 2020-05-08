@@ -3,7 +3,8 @@
 module.exports = {
 	extends: [
 		'eslint:recommended',
-		'./react.js'
+		'./plugin-react.js',
+		'./plugin-import.js'
 	],
 	root: true,
 	parserOptions: {
@@ -22,7 +23,6 @@ module.exports = {
 		'react'
 	],
 	rules: {
-		'jsx-a11y/no-static-element-interactions': 0,
 		'no-empty': 2,
 		'array-callback-return': 2,
 		'no-empty-pattern': 1,
