@@ -1,7 +1,7 @@
 {
 	"name": "@romtrooper/lint",
 	"author": "Rsama",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"repository": {
 		"url": "git://github.com/Romtrooper/lint.git"
 	},
