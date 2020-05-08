@@ -21,7 +21,6 @@ module.exports = {
 	},
 	plugins: [
 		'react',
-		// 'import',
 	],
 	rules: {
 		'no-empty': 2,
