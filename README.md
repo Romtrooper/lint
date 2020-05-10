@@ -31,7 +31,7 @@ In your `.estlintrc` file
 
 ```
 {
-	"extends": "./node_modules/@romtrooper/lint/javascript"
+	"extends": "./node_modules/@romtrooper/lint/typescript/index.js"
 }
 ```
 
