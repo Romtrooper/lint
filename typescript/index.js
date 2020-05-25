@@ -7,7 +7,8 @@ module.exports = {
 		'eslint:recommended',
 		'plugin:@typescript-eslint/eslint-recommended',
 		'plugin:@typescript-eslint/recommended',
-		'plugin:@typescript-eslint/recommended-requiring-type-checking'
+		'plugin:@typescript-eslint/recommended-requiring-type-checking',
+		'../rules/eslint.js',
 	],
 	rules: {
 		'@typescript-eslint/no-explicit-any': ['error', { ignoreRestArgs: false }],
@@ -19,6 +20,8 @@ module.exports = {
 	}
 };
 
+
+// See Rules => https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/ROADMAP.md
 
 // TypeScript-specific
 // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/adjacent-overload-signatures.md
@@ -42,17 +45,27 @@ module.exports = {
 // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/unified-signatures.md
 
 
-// Functionality
-// Maintainability
-// Style
+// Functionality [check rules included in eslintjs]
 
+// Maintainability [check rules included in eslintjs]
+
+// Style [check rules included in eslintjs]
+
+// tslint-microsoft-contrib rules [check rules included in eslintjs]
 
 
 //Note: Make sure to use eslint --ext .js,.ts since by default eslint will only search for .js files.
 // https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md
-
-
-// for TS => https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/ROADMAP.md
 // https://github.com/typescript-eslint/typescript-eslint
 // https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/README.md
 // https://eslint.org/blog/2019/01/future-typescript-eslint
+
+/*
+https://stackoverflow.com/questions/56557988/eslint-in-vsc-not-working-for-ts-and-tsx-files
+"eslint.validate": [
+	"javascript",
+	"javascriptreact",
+	"typescript",
+	"typescriptreact",
+],
+*/
