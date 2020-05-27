@@ -4,11 +4,11 @@ module.exports = {
 	parser: '@typescript-eslint/parser',
 	plugins: ['@typescript-eslint'],
 	extends: [
-		'eslint:recommended',
 		'plugin:@typescript-eslint/eslint-recommended',
 		'plugin:@typescript-eslint/recommended',
 		'plugin:@typescript-eslint/recommended-requiring-type-checking',
-		'../rules/eslint.js',
+		'../rules/eslint-core.js', // extends eslint recommended
+		'../rules/typescript.js',
 	],
 	rules: {
 		'@typescript-eslint/no-explicit-any': ['error', { ignoreRestArgs: false }],
@@ -20,8 +20,6 @@ module.exports = {
 	}
 };
 
-
-// See Rules => https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/ROADMAP.md
 
 // TypeScript-specific
 // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/adjacent-overload-signatures.md

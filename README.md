@@ -9,7 +9,7 @@ This repo is under construction and may be used with caution
 - Javacript rules: 🚧
 - Typescript rules: ⛔
 
-## Installation and usage
+# Installation and usage
 
 Add a `.npmrc` file in your root folder
 
@@ -35,14 +35,22 @@ In your `.estlintrc` file
 }
 ```
 
+### Managing Github Packages
+
+[Managing github packages](https://dev.to/jgierer12/how-to-publish-packages-to-the-github-package-repository-4bai)
+
+
+# Rules
+
+## ESLint and TSlint compatibility
+
+[tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules)
+
+[TSLint Migration Guide](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/ROADMAP.md)
+
 
 ## ESLint with TypeScript
 
 [@typescript-eslint rules](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin)
-
-## Managing Github Packages
-
-[Managing github packages](https://dev.to/jgierer12/how-to-publish-packages-to-the-github-package-repository-4bai)
-
 
 

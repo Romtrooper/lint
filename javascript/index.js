@@ -2,6 +2,7 @@
 
 module.exports = {
 	extends: [
+		'../rules/eslint-core.js', // extends eslint recommended
 		'../rules/eslint.js',
 		'../rules/plugin-react.js',
 		'../rules/plugin-import.js',
