@@ -2,6 +2,8 @@
 
 This package provide linting rules as an extensible shared config.
 
+[TypeScript on ESLint](https://eslint.org/blog/2019/01/future-typescript-eslint)
+
 ## Status
 
 This repo is under construction and may be used with caution
@@ -51,6 +53,32 @@ In your `.estlintrc` file
 
 ## ESLint with TypeScript
 
+
 [@typescript-eslint rules](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin)
+
+
+# TroubleShooting
+
+**eslint not validate .ts or .tsx files**
+
+Update you npm scripts: 
+
+```
+"scripts": {
+  "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+},
+```
+
+On Visual Studio Code update your eslint package config:
+
+```
+"eslint.validate": [
+	"javascript",
+	"javascriptreact",
+	"typescript",
+	"typescriptreact",
+],
+```
+[Stack Overflow related post](https://stackoverflow.com/questions/56557988/eslint-in-vsc-not-working-for-ts-and-tsx-files)
 
 

@@ -9,6 +9,9 @@ module.exports = {
 		'@typescript-eslint/func-call-spacing': ['error', 'never'], // eslint rules: 'func-call-spacing'
 		'@typescript-eslint/comma-spacing': ['error', { before: false, after: true }], // eslint rules: 'func-call-spacing'=> { not in tslint }
 
+		'@typescript-eslint/no-explicit-any': ['error', { ignoreRestArgs: false }],
+		'@typescript-eslint/no-empty-interface': ['error', { allowSingleExtends: false }],
+		'@typescript-eslint/no-inferrable-types': ['warn', { ignoreParameters: false, ignoreProperties: false }], //default
 
 		'semi-style': ['error', 'last'], // ?? https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-semi.md
 		'no-empty-pattern': 1, //eslint _ recommended -> not in tslint
@@ -28,6 +31,7 @@ module.exports = {
 		'implicit-arrow-linebreak': ['error', 'beside'],
 		'arrow-spacing': 'warn', // https://github.com/buzinas/tslint-eslint-rules/blob/master/src/docs/rules/terArrowSpacingRule.md
 		'no-useless-computed-key': 'error',
+
 		// 'new-cap': ['warn', { newIsCap: true }], { not applicable }
 		// 'array-callback-return': 2, { not in tslint }
 		// 'comma-style': ['error', 'last'], { not in tslint }
@@ -48,3 +52,31 @@ module.exports = {
 		// 'no-duplicate-imports': 'error', { not in tslint }
 	}
 }
+
+
+// TypeScript-specific
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/adjacent-overload-signatures.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-types.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-invalid-void-type.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-member-accessibility.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/member-ordering.md
+// https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unassigned-import.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-namespace-keyword.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-magic-numbers.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-namespace.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-non-null-assertion.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/triple-slash-reference.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-type-assertion.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-var-requires.md
+// https://github.com/TristonJ/eslint-plugin-prefer-arrow
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-for-of.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/promise-function-async.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/type-annotation-spacing.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/typedef.md
+// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/unified-signatures.md
+
+
+// Functionality [check rules included in eslintjs]
+// Maintainability [check rules included in eslintjs]
+// Style [check rules included in eslintjs]
+// tslint-microsoft-contrib rules [check rules included in eslintjs]
