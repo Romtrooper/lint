@@ -9,11 +9,12 @@ This package provide linting rules as an extensible shared config.
 This repo is under construction and may be used with caution
 
 - Javacript rules: 🚧
-- Typescript rules: ⛔
+- Typescript rules: 🚧
 
 # Installation and usage
 
-Add a `.npmrc` file in your root folder
+
+Add a `.npmrc` file in your root folder 
 
 ```
 registry=https://npm.pkg.github.com/Romtrooper
@@ -29,13 +30,34 @@ _Plugins installation:_
 npm install eslint-plugin-import eslint-plugin-react -D
 ```
 
-In your `.estlintrc` file
+_Extra for linting Typescript only:_
+
+
+```
+npm install @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
+```
+
+
+In your `.estlintrc` file:
+
+_The default configuration exported is for Typescript:_
+
+
+```
+{
+	"extends": "@romtrooper/lint"
+}
+```
+
+_To use the Javascript configuration set:_
+
 
 ```
 {
 	"extends": "./node_modules/@romtrooper/lint/javascript"
 }
 ```
+
 
 ### Managing Github Packages
 
@@ -70,7 +92,7 @@ Update you npm scripts:
 },
 ```
 
-On Visual Studio Code update your eslint package config:
+On Visual Studio Code update your eslint package config to activate eslint on the fly:
 
 ```
 "eslint.validate": [

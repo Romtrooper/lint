@@ -15,7 +15,7 @@ module.exports = {
 		'plugin:@typescript-eslint/eslint-recommended',
 		'plugin:@typescript-eslint/recommended',
 		'plugin:@typescript-eslint/recommended-requiring-type-checking',
-		'../rules/eslint-core.js', // extends eslint recommended
-		'../rules/typescript.js',
+		'./rules/eslint-core.js', // extends eslint recommended
+		'./rules/typescript.js',
 	],
 };
