@@ -45,7 +45,7 @@ _The default configuration exported is for Typescript:_
 
 ```
 {
-	"extends": "@romtrooper/lint"
+	"extends": "./node_modules/@romtrooper/lint"
 }
 ```
 
