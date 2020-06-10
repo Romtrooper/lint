@@ -20,7 +20,14 @@ module.exports = {
 		browser: true,
 		es2017: true
 	},
-	plugins: [
-		'react',
-	],
+	settings: {
+		'import/resolver': {
+			node: {
+				extensions: ['.js', '.jsx']
+			}
+		},
+		react: {
+			version: 'detect'
+		}
+	},
 }
