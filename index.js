@@ -17,5 +17,6 @@ module.exports = {
 		'plugin:@typescript-eslint/recommended-requiring-type-checking',
 		'./rules/eslint-core.js', // extends eslint recommended
 		'./rules/typescript.js',
+		'./rules/plugin-react.js',
 	],
 };
